@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MMMAth - Puzzle Your Brain</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #121212; color: #E0E0E0; line-height: 1.6;
+  }
+  a { color: #00FFFF; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Hero */
+  .hero {
+    text-align: center; padding: 80px 24px 60px;
+    background: linear-gradient(180deg, #1a0a2e 0%, #121212 100%);
+  }
+  .hero h1 {
+    font-size: 3.5rem; font-weight: 800; letter-spacing: 0.04em;
+    background: linear-gradient(135deg, #FF00FF, #00FFFF);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero .tagline {
+    font-size: 1.4rem; margin-top: 12px; color: #BBBBBB;
+  }
+  .hero .cta {
+    display: inline-block; margin-top: 32px; padding: 14px 36px;
+    border-radius: 30px; font-size: 1.1rem; font-weight: 600;
+    background: linear-gradient(135deg, #FF00FF, #00FFFF);
+    color: #121212; transition: opacity 0.2s;
+  }
+  .hero .cta:hover { opacity: 0.85; text-decoration: none; }
+  .badge { margin-top: 12px; font-size: 0.85rem; color: #999; }
+
+  /* Sections */
+  section { max-width: 820px; margin: 0 auto; padding: 60px 24px; }
+  section h2 {
+    font-size: 1.8rem; margin-bottom: 24px; color: #FF00FF;
+  }
+
+  /* Features grid */
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; }
+  .feature-card {
+    background: #1E1E1E; border-radius: 12px; padding: 28px;
+    border: 1px solid #2A2A2A; transition: border-color 0.2s;
+  }
+  .feature-card:hover { border-color: #FF00FF; }
+  .feature-card h3 { font-size: 1.15rem; color: #00FFFF; margin-bottom: 8px; }
+  .feature-card p { font-size: 0.95rem; color: #AAAAAA; }
+
+  /* Puzzle types */
+  .types-list { list-style: none; display: flex; flex-wrap: wrap; gap: 12px; }
+  .types-list li {
+    background: #1E1E1E; border: 1px solid #2A2A2A; border-radius: 20px;
+    padding: 8px 20px; font-size: 0.95rem;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center; padding: 32px 24px; font-size: 0.85rem;
+    color: #666; border-top: 1px solid #1E1E1E;
+  }
+  footer a { color: #888; }
+  footer .links { margin-bottom: 8px; }
+  footer .links a { margin: 0 12px; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>MMMAth</h1>
+  <p class="tagline">Puzzle Your Brain</p>
+  <a class="cta" href="#">Download Free on the App Store</a>
+  <p class="badge">Free &middot; Ad-supported &middot; No sign-up required</p>
+</header>
+
+<section>
+  <h2>100 Math Puzzles. Zero Boredom.</h2>
+  <p>
+    Challenge yourself with 100 hand-crafted math puzzles spanning five distinct
+    categories. Start easy, finish legendary. Every puzzle comes with hints (and
+    extra hints) so you never have to give up.
+  </p>
+</section>
+
+<section>
+  <h2>Puzzle Types</h2>
+  <ul class="types-list">
+    <li>Number Sequences</li>
+    <li>Algebra</li>
+    <li>Shape Equations</li>
+    <li>Logic Patterns</li>
+    <li>Mixed Challenges</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <div class="features">
+    <div class="feature-card">
+      <h3>Progressive Difficulty</h3>
+      <p>Puzzles ramp up gradually so your skills grow with every solve.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Hints &amp; Extra Hints</h3>
+      <p>Stuck? Tap for a nudge. Still stuck? Get an extra hint to keep going.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Dark Neon Aesthetic</h3>
+      <p>A striking visual style that looks great and is easy on your eyes.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Offline &amp; Private</h3>
+      <p>No account needed. Your progress stays on your device.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+  </div>
+  <p>&copy; 2026 Yaroslav Shevchenko. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
